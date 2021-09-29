@@ -1,0 +1,24 @@
+<svg width="1440" height="875" viewBox="0 0 1440 875" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2">
+<rect id="Rectangle 3" x="237" y="-80" width="682.587" height="702.153" transform="rotate(31.1936 237 -80)" fill="url(#paint0_linear)"/>
+<rect id="Rectangle 4" x="896" y="142" width="387.596" height="549.307" transform="rotate(-63.306 896 142)" fill="url(#paint1_linear)"/>
+<ellipse id="Ellipse 1" cx="524.5" cy="39.5" rx="37.5" ry="30.5" fill="#C4C4C4"/>
+<path id="Polygon 1" d="M867 77L898.177 124.25H835.823L867 77Z" fill="#C4C4C4"/>
+<path id="Star 1" d="M700.5 42L707.572 59.2746H730.458L711.943 69.9508L719.015 87.2254L700.5 76.5491L681.985 87.2254L689.057 69.9508L670.542 59.2746H693.428L700.5 42Z" fill="#C4C4C4"/>
+<rect id="Rectangle 8" width="60.9219" height="13.0573" transform="matrix(-0.250305 -0.968167 -0.968167 0.250305 622.813 53.497)" fill="#C4C4C4"/>
+<rect id="Rectangle 9" x="867" y="-1" width="1" height="82" fill="#C4C4C4"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="578.293" y1="-80" x2="578.293" y2="622.153" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E04747"/>
+<stop offset="0.296875" stop-color="#DF9165"/>
+<stop offset="0.619792" stop-color="#DF65B6"/>
+<stop offset="0.895833" stop-color="#DB00FF" stop-opacity="0.62"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="1089.8" y1="142" x2="1089.8" y2="691.307" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D83C3C"/>
+<stop offset="0.53125" stop-color="#7023E0" stop-opacity="0.814062"/>
+<stop offset="1" stop-color="#1D7AE7" stop-opacity="0.65"/>
+</linearGradient>
+</defs>
+</svg>

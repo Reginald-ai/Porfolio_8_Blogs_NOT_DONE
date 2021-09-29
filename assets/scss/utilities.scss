@@ -1,0 +1,62 @@
+// @import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Quicksand&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+// @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+body {
+  // font-family: "Inter", sans-serif;
+  // font-family: "Quicksand", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 200vh;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"),
+    url(~assets/fonts/OpenSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url(~assets/fonts/Poppins-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"),
+    url(~assets/fonts/Quicksand-Regular.ttf) format("truetype");
+}
+
+// Breakpoints
+// @media (min-width: 64em){
+//     // styles go here
+//   }
+
+// 640px, 1024px, 1400px
+$breakpoints-up: (
+  "small": "576px",
+  "medium": " 768px",
+  "large": "992px",
+  "xlarge": "1200px",
+  "xxl": "1400px"
+);
+
+// 639px, 1023px, 1399px
+$breakpoints-down: (
+  "small": "575px",
+  "medium": " 767px",
+  "large": "991px",
+  "xlarge": "1199px",
+  "xxl": "1399px"
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size)) {
+    @content;
+  }
+}
